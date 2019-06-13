@@ -1,0 +1,10 @@
+.navigation__links__link-item {
+  font-family: montserrat-light;
+  font-size: 1em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navigation__links__link-item:hover {
+  color: #8ce6f2;
+}

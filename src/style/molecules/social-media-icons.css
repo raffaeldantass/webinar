@@ -1,0 +1,7 @@
+.left-bar__social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-top: 10px;
+}

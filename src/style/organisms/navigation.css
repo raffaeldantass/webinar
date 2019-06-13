@@ -1,3 +1,8 @@
 .navigation {
   grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 18px;
+  background-color: #404E5C;
 }

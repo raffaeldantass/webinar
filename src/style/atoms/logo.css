@@ -1,0 +1,7 @@
+.navigation__logo, .left-bar__profile-photo, .about-photo {
+  border-radius: 50%;
+}
+
+.about-photo {
+  width: 250px;
+}

@@ -1,3 +1,5 @@
 .main {
   grid-area: main;
+  padding: 20px 30px;
+  overflow: scroll;
 }

@@ -1,0 +1,16 @@
+.form-button {
+  font-family: montserrat-semibold;
+  font-size: 1em;
+  margin: 20px 0;
+  padding: 10px 0;
+  border: none;
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.form-button:hover {
+  background-color: blueviolet;
+  color: whitesmoke;
+  cursor: pointer;
+}

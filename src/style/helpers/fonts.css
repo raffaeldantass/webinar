@@ -1,0 +1,9 @@
+@font-face {
+  font-family: montserrat-light;
+  src: url(../../public/fonts/montserrat-light.ttf);
+}
+
+@font-face {
+  font-family: montserrat-semibold;
+  src: url(../../public/fonts/montserrat-semibold.ttf);
+}

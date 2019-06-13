@@ -5,65 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./style/helpers/reset.css">
-  <link rel="stylesheet" href="./style/pages/grid.css">
-  <link rel="stylesheet" href="./style/organisms/navigation.css">
-  <link rel="stylesheet" href="./style/organisms/left-bar.css">
-  <link rel="stylesheet" href="./style/organisms/main.css">
-  <link rel="stylesheet" href="./style/organisms/footer.css">
+  <link rel="stylesheet" href="./style/helpers/fonts.css">
+  <link rel="stylesheet" href="./style/templates/index.css">
   <title> Webinar </title>
 </head>
 <body>
   <div class="container">
     <nav class="navigation">
-      <img class="navigation__logo" src="" alt="">
-      <ul>
-        <li><a href=""> Quem Sou </a></li>
-        <li><a href=""> Projetos </a></li>
-        <li><a href=""> Contato  </a></li>
+      <img class="navigation__logo" src="./public/img/logo.png" alt="Logo Photo">
+      <ul class="navigation__links">
+        <li><a class="navigation__links__link-item" href="#about"> Quem Sou </a></li>
+        <li><a class="navigation__links__link-item" href="#projects"> Projetos </a></li>
+        <li><a class="navigation__links__link-item" href="#contact"> Contato  </a></li>
       </ul>
     </nav>
 
     <aside class="left-bar">
-      <img class="left-bar__profile-photo" src="" alt="">
+      <img class="left-bar__profile-photo" src="./public/img/aside-photo.png" alt="Profile Photo">
       <h1 class="person-name"> Rafael Dantas </h1>
       <p class="person-details"> Front End Developer </p>
       <p class="person-details"> rafael@rafa-dantas.com.br </p>
 
       <ul class="left-bar__social-media-icons">
-        <li><img class="left-bar__social-media-icons__icon" src="" alt=""></li>
-        <li><img class="left-bar__social-media-icons__icon" src="" alt=""></li>
-        <li><img class="left-bar__social-media-icons__icon" src="" alt=""></li>
+        <li><img class="left-bar__social-media-icons__icon" src="./public/img/icons/github-logo.svg" alt="Github Logo"></li>
+        <li><img class="left-bar__social-media-icons__icon" src="./public/img/icons/medium-logo.svg" alt="Medium Logo"></li>
+        <li><img class="left-bar__social-media-icons__icon" src="./public/img/icons/twitter-logo.svg" alt="Twitter Logo"></li>
       </ul>
     </aside>
 
     <main class="main">
-      <section class="main__about">
-        <img src="" alt="">
-        <h2 class="main__title"> Quem sou? </h2>
-        <p class="main__paragraph"> 
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente minima ab aut, nisi asperiores modi numquam, laudantium quae excepturi ut ex dignissimos deserunt adipisci. Quas tenetur nulla illum corporis ratione.
-          Quam distinctio iste sit odit, illo minima ratione sapiente. Rerum neque libero nobis. Dolorum quia aspernatur ut consequatur, placeat molestiae voluptates accusantium rem ea saepe assumenda earum, libero temporibus est.
-          Accusamus magnam, facilis nulla non dignissimos quasi ipsum sit ullam hic rem et sint quibusdam quidem quo distinctio placeat vel maiores tempore, consequatur consequuntur aut exercitationem? Ullam eligendi veniam quis.
-          Iste odio architecto libero dignissimos fugit id corrupti facere aspernatur culpa quis optio cum perferendis voluptatem, voluptas vero consequatur, earum natus nostrum ratione ad rem! Atque explicabo voluptatum labore. Optio.
-          Aspernatur maiores commodi sed accusantium, soluta facilis velit.
-        </p>
+      <section id="about" class="main__about">
+        <img class="about-photo" src="./public/img/profile-photo.png" alt="About Photo">
+        <div class="about-description-block">
+          <h2 class="main__title"> Quem sou? </h2>
+          <p class="main__paragraph"> 
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente minima ab aut, nisi asperiores modi numquam, laudantium quae excepturi ut ex dignissimos deserunt adipisci. Quas tenetur nulla illum corporis ratione.
+            Quam distinctio iste sit odit, illo minima ratione sapiente. Rerum neque libero nobis. Dolorum quia aspernatur ut consequatur, placeat molestiae voluptates accusantium rem ea saepe assumenda earum.
+          </p>
+        </div>
       </section>
 
-      <section class="main__projects">
+      <section id="projects" class="main__projects">
         <h2 class="main__title"> Projetos </h2>
-        <ul>
-          <li><img class="project-thumb" src="" alt=""></li>
-          <li><img class="project-thumb" src="" alt=""></li>
-          <li><img class="project-thumb" src="" alt=""></li>
-          <li><img class="project-thumb" src="" alt=""></li>
+        <ul class="projects-list">
+          <li><img class="project-thumb" src="./public/img/img1.png" alt="Img 1"></li>
+          <li><img class="project-thumb" src="./public/img/img2.png" alt="Img 2"></li>
+          <li><img class="project-thumb" src="./public/img/img3.png" alt="Img 3"></li>
+          <li><img class="project-thumb" src="./public/img/img4.png" alt="Img 4"></li>
+          <li><img class="project-thumb" src="./public/img/img5.png" alt="Img 5"></li>
         </ul>
       </section>
 
-      <section class="main__contact">
+      <section id="contact" class="main__contact">
         <h2 class="main__title"> Contato </h2>
         <p class="main__paragraph"> Gostou? Entre em contato e tire suas dúvidas. </p>
 
-        <form action="">
+        <form action="" class="main__contact__form">
           <label class="label" for="name"> Nome completo: </label>
           <input class="input" type="text" name="name" id="name" placeholder="Insira seu nome completo">
 
@@ -82,7 +79,7 @@
     </main>
 
     <footer class="footer">
-      <h3 class="footer__subtitle"> Rafael Dantas </h3>
+      <h3 class="footer__subtitle"> Rafael Dantas 2019 </h3>
     </footer>
   </div>
 </body>
